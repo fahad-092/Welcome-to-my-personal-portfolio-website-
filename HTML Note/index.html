@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FAHAD HTML NOTES | Learn HTML Basic to Advanced</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= SIDEBAR ================= -->
+
+<aside class="sidebar">
+
+    <div class="brand">
+
+        <div class="html-logo">
+            <span>5</span>
+        </div>
+
+        <div class="brand-text">
+            <h2>FAHAD</h2>
+            <small>HTML NOTES</small>
+        </div>
+
+    </div>
+
+
+    <nav class="side-nav">
+
+        <a href="#home" class="active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="#syllabus">
+            <i class="fa-solid fa-book"></i>
+            <span>Syllabus</span>
+        </a>
+
+        <a href="#notes">
+            <i class="fa-solid fa-file-code"></i>
+            <span>HTML Notes</span>
+        </a>
+
+        <a href="#playground">
+            <i class="fa-solid fa-code"></i>
+            <span>Code Playground</span>
+        </a>
+
+        <a href="#practice">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <span>Practice</span>
+        </a>
+
+        <a href="#projects">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Projects</span>
+        </a>
+
+        <a href="#about">
+            <i class="fa-solid fa-user"></i>
+            <span>About Fahad</span>
+        </a>
+
+    </nav>
+
+
+    <div class="sidebar-bottom">
+
+        <div class="progress-mini">
+
+            <div class="progress-top">
+                <span>Course Progress</span>
+                <span id="miniProgress">0%</span>
+            </div>
+
+            <div class="progress-bar">
+                <div id="miniProgressBar"></div>
+            </div>
+
+        </div>
+
+        <p>© 2026 FAHAD NOTES</p>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= MAIN CONTENT ================= -->
+
+<main class="main-content">
+
+
+<!-- TOPBAR -->
+
+<header class="topbar">
+
+    <button class="menu-btn" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-search"></i>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search HTML topics..."
+        >
+
+    </div>
+
+
+    <div class="top-actions">
+
+        <button id="themeToggle" class="icon-btn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <div class="profile-mini">
+            <div class="profile-avatar">F</div>
+            <span>FAHAD</span>
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section class="hero-section" id="home">
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            <i class="fa-solid fa-fire"></i>
+            COMPLETE HTML COURSE
+        </div>
+
+        <h1>
+            Learn HTML<br>
+            <span>From Basic to Advanced</span>
+        </h1>
+
+        <p>
+            HTML ko simple Hindi-English language mein seekhiye.
+            Step-by-step notes, practical examples, live coding aur projects ke saath.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#syllabus" class="btn primary-btn">
+                <i class="fa-solid fa-book-open"></i>
+                Explore Syllabus
+            </a>
+
+            <a href="#playground" class="btn outline-btn">
+                <i class="fa-solid fa-code"></i>
+                Start Coding
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="floating-tag tag-one">
+            HTML5
+        </div>
+
+        <div class="code-window">
+
+            <div class="window-header">
+
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+
+                <small>index.html</small>
+
+            </div>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;title&gt;FAHAD HTML&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;Hello Developer!&lt;/h1&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+
+        </div>
+
+        <div class="floating-tag tag-two">
+            &lt;/&gt; CODE
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-grid">
+
+    <div class="stat-card">
+        <div class="stat-icon">
+            <i class="fa-solid fa-book"></i>
+        </div>
+        <div>
+            <h3>15</h3>
+            <p>Course Modules</p>
+        </div>
+    </div>
+
+
+    <div class="stat-card">
+        <div class="stat-icon">
+            <i class="fa-solid fa-code"></i>
+        </div>
+        <div>
+            <h3>50+</h3>
+            <p>HTML Topics</p>
+        </div>
+    </div>
+
+
+    <div class="stat-card">
+        <div class="stat-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <div>
+            <h3>20+</h3>
+            <p>Practical Projects</p>
+        </div>
+    </div>
+
+
+    <div class="stat-card">
+        <div class="stat-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div>
+            <h3>Basic → Advanced</h3>
+            <p>Learning Path</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================= SYLLABUS ================= -->
+
+<section class="section" id="syllabus">
+
+    <div class="section-header">
+
+        <div>
+            <span class="section-label">COURSE CURRICULUM</span>
+            <h2>Complete HTML Syllabus</h2>
+            <p>Basic se advanced level tak complete HTML learning roadmap.</p>
+        </div>
+
+        <div class="course-progress">
+
+            <div class="progress-circle">
+                <span id="progressPercent">0%</span>
+            </div>
+
+            <div>
+                <strong>Your Progress</strong>
+                <small>Keep learning every day!</small>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="syllabus-grid" id="syllabusGrid">
+
+        <!-- MODULE 1 -->
+
+        <div class="module-card" data-title="html fundamentals introduction basic tags">
+
+            <div class="module-top">
+                <span class="module-number">01</span>
+                <span class="level beginner">BEGINNER</span>
+            </div>
+
+            <h3>HTML Fundamentals</h3>
+
+            <p>
+                HTML kya hai aur webpage ka basic structure kaise banaya jata hai.
+            </p>
+
+            <ul>
+                <li>Introduction to HTML</li>
+                <li>HTML5 Features</li>
+                <li>Document Structure</li>
+                <li>Basic HTML Tags</li>
+                <li>Text Formatting</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(1)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 2 -->
+
+        <div class="module-card" data-title="html attributes elements div span entities">
+
+            <div class="module-top">
+                <span class="module-number">02</span>
+                <span class="level beginner">BEGINNER</span>
+            </div>
+
+            <h3>Attributes & Elements</h3>
+
+            <p>
+                HTML elements aur attributes ka proper use seekhiye.
+            </p>
+
+            <ul>
+                <li>HTML Attributes</li>
+                <li>Global Attributes</li>
+                <li>Block & Inline Elements</li>
+                <li>Div vs Span</li>
+                <li>HTML Entities</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(2)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 3 -->
+
+        <div class="module-card" data-title="links navigation anchor href">
+
+            <div class="module-top">
+                <span class="module-number">03</span>
+                <span class="level beginner">BEGINNER</span>
+            </div>
+
+            <h3>Links & Navigation</h3>
+
+            <p>
+                Pages ko connect karna aur professional navigation banana.
+            </p>
+
+            <ul>
+                <li>Anchor Tag</li>
+                <li>Internal Links</li>
+                <li>External Links</li>
+                <li>Email & Phone Links</li>
+                <li>Navigation Menus</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(3)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 4 -->
+
+        <div class="module-card" data-title="images audio video multimedia picture iframe">
+
+            <div class="module-top">
+                <span class="module-number">04</span>
+                <span class="level beginner">BEGINNER</span>
+            </div>
+
+            <h3>Images & Multimedia</h3>
+
+            <p>
+                Images, audio, video aur external content add karna.
+            </p>
+
+            <ul>
+                <li>Image Tag</li>
+                <li>Responsive Images</li>
+                <li>Picture Element</li>
+                <li>Audio & Video</li>
+                <li>Iframe</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(4)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 5 -->
+
+        <div class="module-card" data-title="lists tables ordered unordered table">
+
+            <div class="module-top">
+                <span class="module-number">05</span>
+                <span class="level beginner">BEGINNER</span>
+            </div>
+
+            <h3>Lists & Tables</h3>
+
+            <p>
+                Data ko organized format mein display karna.
+            </p>
+
+            <ul>
+                <li>Ordered Lists</li>
+                <li>Unordered Lists</li>
+                <li>Description Lists</li>
+                <li>HTML Tables</li>
+                <li>Colspan & Rowspan</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(5)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 6 -->
+
+        <div class="module-card" data-title="forms input validation textarea select">
+
+            <div class="module-top">
+                <span class="module-number">06</span>
+                <span class="level intermediate">INTERMEDIATE</span>
+            </div>
+
+            <h3>Forms & User Input</h3>
+
+            <p>
+                User se information collect karne ke liye forms banana.
+            </p>
+
+            <ul>
+                <li>Form Tag</li>
+                <li>Input Types</li>
+                <li>Textarea & Select</li>
+                <li>Buttons</li>
+                <li>Form Validation</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(6)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 7 -->
+
+        <div class="module-card" data-title="semantic html header nav main section article footer">
+
+            <div class="module-top">
+                <span class="module-number">07</span>
+                <span class="level intermediate">INTERMEDIATE</span>
+            </div>
+
+            <h3>Semantic HTML5</h3>
+
+            <p>
+                Professional aur meaningful webpage structure banana.
+            </p>
+
+            <ul>
+                <li>Header</li>
+                <li>Nav</li>
+                <li>Main</li>
+                <li>Section</li>
+                <li>Article & Footer</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(7)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 8 -->
+
+        <div class="module-card" data-title="advanced html5 canvas svg dialog template">
+
+            <div class="module-top">
+                <span class="module-number">08</span>
+                <span class="level advanced">ADVANCED</span>
+            </div>
+
+            <h3>Advanced HTML5 Features</h3>
+
+            <p>
+                Modern HTML ke powerful features aur interactive elements.
+            </p>
+
+            <ul>
+                <li>Canvas</li>
+                <li>SVG</li>
+                <li>Dialog</li>
+                <li>Template</li>
+                <li>Web Components</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(8)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 9 -->
+
+        <div class="module-card" data-title="accessibility aria wcag screen reader">
+
+            <div class="module-top">
+                <span class="module-number">09</span>
+                <span class="level advanced">ADVANCED</span>
+            </div>
+
+            <h3>Accessibility (A11y)</h3>
+
+            <p>
+                Har user ke liye accessible websites banana.
+            </p>
+
+            <ul>
+                <li>Web Accessibility</li>
+                <li>WCAG Basics</li>
+                <li>ARIA Attributes</li>
+                <li>Screen Readers</li>
+                <li>Keyboard Navigation</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(9)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 10 -->
+
+        <div class="module-card" data-title="seo meta tags search engine optimization">
+
+            <div class="module-top">
+                <span class="module-number">10</span>
+                <span class="level advanced">ADVANCED</span>
+            </div>
+
+            <h3>SEO-Friendly HTML</h3>
+
+            <p>
+                Search engines ke liye optimized HTML structure.
+            </p>
+
+            <ul>
+                <li>Meta Tags</li>
+                <li>Title & Description</li>
+                <li>Heading Structure</li>
+                <li>Open Graph</li>
+                <li>Structured Data</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(10)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 11 -->
+
+        <div class="module-card" data-title="performance lazy loading async defer preload">
+
+            <div class="module-top">
+                <span class="module-number">11</span>
+                <span class="level advanced">ADVANCED</span>
+            </div>
+
+            <h3>HTML Performance</h3>
+
+            <p>
+                Website loading speed aur performance improve karna.
+            </p>
+
+            <ul>
+                <li>Page Speed</li>
+                <li>Lazy Loading</li>
+                <li>Async & Defer</li>
+                <li>Preload & Prefetch</li>
+                <li>Optimization</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(11)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 12 -->
+
+        <div class="module-card" data-title="css javascript dom integration">
+
+            <div class="module-top">
+                <span class="module-number">12</span>
+                <span class="level advanced">ADVANCED</span>
+            </div>
+
+            <h3>HTML with CSS & JavaScript</h3>
+
+            <p>
+                HTML ko CSS aur JavaScript ke saath integrate karna.
+            </p>
+
+            <ul>
+                <li>External CSS</li>
+                <li>JavaScript Integration</li>
+                <li>DOM Basics</li>
+                <li>Data Attributes</li>
+                <li>Frontend Integration</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(12)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 13 -->
+
+        <div class="module-card" data-title="metadata validation browser compatibility">
+
+            <div class="module-top">
+                <span class="module-number">13</span>
+                <span class="level advanced">ADVANCED</span>
+            </div>
+
+            <h3>Advanced HTML Concepts</h3>
+
+            <p>
+                Professional HTML coding standards aur best practices.
+            </p>
+
+            <ul>
+                <li>Metadata</li>
+                <li>HTML Validation</li>
+                <li>Browser Compatibility</li>
+                <li>Deprecated Tags</li>
+                <li>Clean Code</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(13)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 14 -->
+
+        <div class="module-card" data-title="professional responsive html architecture components">
+
+            <div class="module-top">
+                <span class="module-number">14</span>
+                <span class="level advanced">ADVANCED</span>
+            </div>
+
+            <h3>Professional Development</h3>
+
+            <p>
+                Industry-level HTML development practices.
+            </p>
+
+            <ul>
+                <li>Responsive Structure</li>
+                <li>Component-Based HTML</li>
+                <li>Website Architecture</li>
+                <li>Coding Standards</li>
+                <li>Professional Workflow</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(14)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+
+        <!-- MODULE 15 -->
+
+        <div class="module-card" data-title="html projects portfolio ecommerce website practice">
+
+            <div class="module-top">
+                <span class="module-number">15</span>
+                <span class="level advanced">PROJECTS</span>
+            </div>
+
+            <h3>HTML Projects</h3>
+
+            <p>
+                Real-world projects ke through practical HTML learning.
+            </p>
+
+            <ul>
+                <li>Portfolio Website</li>
+                <li>Restaurant Website</li>
+                <li>E-Commerce Page</li>
+                <li>Dashboard</li>
+                <li>Educational Website</li>
+            </ul>
+
+            <button class="module-btn" onclick="openModule(15)">
+                Start Learning <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NOTES ================= -->
+
+<section class="section notes-area" id="notes">
+
+    <div class="section-header">
+
+        <div>
+            <span class="section-label">LEARNING NOTES</span>
+            <h2>HTML Notes</h2>
+            <p>Easy Hinglish explanations with practical examples.</p>
+        </div>
+
+    </div>
+
+
+    <div class="notes-layout">
+
+        <div class="notes-sidebar">
+
+            <button class="note-tab active" onclick="showNote('intro', this)">
+                <i class="fa-solid fa-circle-info"></i>
+                What is HTML?
+            </button>
+
+            <button class="note-tab" onclick="showNote('structure', this)">
+                <i class="fa-solid fa-code"></i>
+                Document Structure
+            </button>
+
+            <button class="note-tab" onclick="showNote('tags', this)">
+                <i class="fa-solid fa-tags"></i>
+                HTML Tags
+            </button>
+
+            <button class="note-tab" onclick="showNote('attributes', this)">
+                <i class="fa-solid fa-sliders"></i>
+                Attributes
+            </button>
+
+            <button class="note-tab" onclick="showNote('semantic', this)">
+                <i class="fa-solid fa-layer-group"></i>
+                Semantic HTML
+            </button>
+
+        </div>
+
+
+        <div class="notes-content" id="notesContent">
+
+            <div class="note-content active" id="intro">
+
+                <div class="note-title">
+                    <span class="note-number">01</span>
+                    <h2>What is HTML?</h2>
+                </div>
+
+                <p>
+                    HTML ka full form HyperText Markup Language hai.
+                    HTML ka use webpages ka structure banane ke liye hota hai.
+                </p>
+
+                <div class="info-box">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <p>
+                        Simple words mein, HTML website ka skeleton hota hai.
+                        CSS design banata hai aur JavaScript functionality add karta hai.
+                    </p>
+                </div>
+
+                <h3>Basic Example</h3>
+
+<pre class="note-code"><code>&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;This is my first webpage.&lt;/p&gt;</code></pre>
+
+                <h3>Important Points</h3>
+
+                <ul class="check-list">
+                    <li>HTML is not a programming language.</li>
+                    <li>HTML is a markup language.</li>
+                    <li>HTML elements webpage ka structure banate hain.</li>
+                    <li>HTML5 modern websites ke liye use hota hai.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="note-content" id="structure">
+
+                <div class="note-title">
+                    <span class="note-number">02</span>
+                    <h2>HTML Document Structure</h2>
+                </div>
+
+                <p>
+                    Har HTML webpage ek basic document structure follow karta hai.
+                </p>
+
+<pre class="note-code"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;My Website&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;Welcome&lt;/h1&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+
+                <div class="info-box">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p>
+                        <strong>DOCTYPE</strong> browser ko batata hai ki document HTML5 format mein hai.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="note-content" id="tags">
+
+                <div class="note-title">
+                    <span class="note-number">03</span>
+                    <h2>HTML Tags</h2>
+                </div>
+
+                <p>
+                    HTML tags webpage ke different elements create karte hain.
+                </p>
+
+                <div class="tag-table">
+
+                    <div class="tag-row header">
+                        <span>Tag</span>
+                        <span>Use</span>
+                    </div>
+
+                    <div class="tag-row">
+                        <span>&lt;h1&gt;</span>
+                        <span>Main Heading</span>
+                    </div>
+
+                    <div class="tag-row">
+                        <span>&lt;p&gt;</span>
+                        <span>Paragraph</span>
+                    </div>
+
+                    <div class="tag-row">
+                        <span>&lt;a&gt;</span>
+                        <span>Link</span>
+                    </div>
+
+                    <div class="tag-row">
+                        <span>&lt;img&gt;</span>
+                        <span>Image</span>
+                    </div>
+
+                    <div class="tag-row">
+                        <span>&lt;div&gt;</span>
+                        <span>Container</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="note-content" id="attributes">
+
+                <div class="note-title">
+                    <span class="note-number">04</span>
+                    <h2>HTML Attributes</h2>
+                </div>
+
+                <p>
+                    Attributes HTML elements ke baare mein additional information provide karte hain.
+                </p>
+
+<pre class="note-code"><code>&lt;img src="photo.jpg" alt="My Photo"&gt;
+
+&lt;a href="https://example.com"&gt;
+    Visit Website
+&lt;/a&gt;</code></pre>
+
+                <p>
+                    Yahan <strong>src</strong>, <strong>alt</strong> aur <strong>href</strong> attributes hain.
+                </p>
+
+            </div>
+
+
+            <div class="note-content" id="semantic">
+
+                <div class="note-title">
+                    <span class="note-number">05</span>
+                    <h2>Semantic HTML</h2>
+                </div>
+
+                <p>
+                    Semantic tags element ka meaning clearly define karte hain.
+                    Ye SEO aur accessibility ke liye useful hain.
+                </p>
+
+<pre class="note-code"><code>&lt;header&gt;
+    Website Header
+&lt;/header&gt;
+
+&lt;nav&gt;
+    Navigation Menu
+&lt;/nav&gt;
+
+&lt;main&gt;
+    Main Content
+&lt;/main&gt;
+
+&lt;footer&gt;
+    Website Footer
+&lt;/footer&gt;</code></pre>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PLAYGROUND ================= -->
+
+<section class="section playground-section" id="playground">
+
+    <div class="section-header">
+
+        <div>
+            <span class="section-label">PRACTICAL CODING</span>
+            <h2>HTML Code Playground</h2>
+            <p>Code likhiye aur live output dekhiye.</p>
+        </div>
+
+    </div>
+
+
+    <div class="playground">
+
+        <div class="editor-panel">
+
+            <div class="editor-header">
+
+                <span>
+                    <i class="fa-brands fa-html5"></i>
+                    HTML Editor
+                </span>
+
+                <button id="copyCode" class="small-btn">
+                    <i class="fa-solid fa-copy"></i>
+                    Copy
+                </button>
+
+            </div>
+
+
+<textarea id="codeEditor"><!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #e44d26;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Hello I'm FAHAD!</h1>
+<p>Welcome to HTML Learning.</p>
+
+</body>
+</html></textarea>
+
+
+            <button id="runCode" class="run-btn">
+                <i class="fa-solid fa-play"></i>
+                Run Code
+            </button>
+
+        </div>
+
+
+        <div class="preview-panel">
+
+            <div class="preview-header">
+                <span>
+                    <i class="fa-solid fa-display"></i>
+                    Live Preview
+                </span>
+
+                <span class="live-status">
+                    ● LIVE
+                </span>
+            </div>
+
+            <iframe id="previewFrame"></iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRACTICE ================= -->
+
+<section class="section practice-section" id="practice">
+
+    <div class="section-header">
+
+        <div>
+            <span class="section-label">TEST YOUR KNOWLEDGE</span>
+            <h2>Practice Questions</h2>
+            <p>Apni learning ko test karein.</p>
+        </div>
+
+    </div>
+
+
+    <div class="practice-list">
+
+        <div class="question-card">
+
+            <div class="question-number">01</div>
+
+            <div class="question-content">
+
+                <h3>What is HTML?</h3>
+
+                <button class="answer-btn" onclick="toggleAnswer(this)">
+                    Show Answer <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="answer">
+                    HTML stands for HyperText Markup Language.
+                    It is used to create the structure of webpages.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="question-card">
+
+            <div class="question-number">02</div>
+
+            <div class="question-content">
+
+                <h3>What is the difference between HTML and CSS?</h3>
+
+                <button class="answer-btn" onclick="toggleAnswer(this)">
+                    Show Answer <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="answer">
+                    HTML creates the structure of a webpage, while CSS is used
+                    to design and style that webpage.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="question-card">
+
+            <div class="question-number">03</div>
+
+            <div class="question-content">
+
+                <h3>What are Semantic HTML Tags?</h3>
+
+                <button class="answer-btn" onclick="toggleAnswer(this)">
+                    Show Answer <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="answer">
+                    Semantic tags clearly describe their meaning and purpose,
+                    such as header, nav, main, article, section and footer.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="question-card">
+
+            <div class="question-number">04</div>
+
+            <div class="question-content">
+
+                <h3>What is the purpose of the alt attribute?</h3>
+
+                <button class="answer-btn" onclick="toggleAnswer(this)">
+                    Show Answer <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+                <div class="answer">
+                    The alt attribute provides alternative text for images,
+                    useful for accessibility and when images cannot load.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="section projects-section" id="projects">
+
+    <div class="section-header">
+
+        <div>
+            <span class="section-label">BUILD SOMETHING</span>
+            <h2>HTML Practice Projects</h2>
+            <p>Learn HTML by building real-world projects.</p>
+        </div>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+                Apna professional portfolio website banaiye.
+            </p>
+
+            <span class="project-level">BEGINNER</span>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+
+            <h3>Restaurant Website</h3>
+
+            <p>
+                Menu, gallery aur contact form ke saath website.
+            </p>
+
+            <span class="project-level">BEGINNER</span>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+            <h3>E-Commerce Page</h3>
+
+            <p>
+                Product cards aur shopping interface design.
+            </p>
+
+            <span class="project-level">INTERMEDIATE</span>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-hospital"></i>
+            </div>
+
+            <h3>Hospital Website</h3>
+
+            <p>
+                Professional healthcare website structure.
+            </p>
+
+            <span class="project-level">INTERMEDIATE</span>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <h3>Educational Platform</h3>
+
+            <p>
+                Complete online learning website interface.
+            </p>
+
+            <span class="project-level">ADVANCED</span>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <h3>Admin Dashboard</h3>
+
+            <p>
+                Dashboard layout with cards and data tables.
+            </p>
+
+            <span class="project-level">ADVANCED</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about-section" id="about">
+
+    <div class="about-card">
+
+        <div class="profile-large">
+            <span>F</span>
+        </div>
+
+        <div class="about-text">
+
+            <span class="section-label">ABOUT THE CREATOR</span>
+
+            <h2>Learn Coding with FAHAD</h2>
+
+            <p>
+                FAHAD HTML NOTES ek educational platform hai jiska purpose
+                HTML aur web development ko simple, practical aur easy language
+                mein students tak pahunchana hai.
+            </p>
+
+            <p>
+                Yahan aap basic HTML tags se lekar advanced concepts,
+                accessibility, SEO, performance aur professional projects tak seekh sakte hain.
+            </p>
+
+            <div class="skills">
+
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Web Development</span>
+                <span>AI Tools</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-brand">
+
+        <div class="html-logo small">
+            <span>5</span>
+        </div>
+
+        <div>
+            <h3>FAHAD HTML NOTES</h3>
+            <p>Learn • Practice • Build • Grow</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#notes">Notes</a>
+        <a href="#playground">Practice</a>
+        <a href="#about">About</a>
+
+    </div>
+
+
+    <div class="social-links">
+
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+    </div>
+
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 FAHAD HTML NOTES. All Rights Reserved.
+    </p>
+
+</footer>
+
+</main>
+
+
+<!-- MODULE MODAL -->
+
+<div class="modal" id="moduleModal">
+
+    <div class="modal-content">
+
+        <button class="close-modal" onclick="closeModule()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div id="modalBody"></div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fahad Ahmad | Portfolio</title>
+  <meta name="description" content="Portfolio website of Fahad Ahmad, web developer and creative designer.">
+  
+<!-- This link is for CSS -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- This link is for icon from font aawesome -->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=code_xml" />
+
+</head>
+<body>
+
+  <!-- Lets starting Header tag for make a heading list of our web details-->
+
+  <header class="header">
+    
+    <!-- After Header Tag we create a nav that present our Navigation bar -->
+
+    <a href="#home" class="logo">Fahad</a>
+    <a class="span"><span class="material-symbols-outlined">code_xml</span></a>
+
+    <!-- Then we create our logo heading like this -->
+
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Fahad Ahmad</span></h1>
+        <h2>Accountant, Graphic Designer, Tally Operator & Web Developer</h2>
+        <p class="intro">Detail-oriented professional with 2 years of accounting experience, 1 year of billing experience, and 3 years of office automation experience. Skilled in Tally, MS Office, Advanced Excel, POS systems, bill settlement, documentation, printing, and creative software. Also experienced in CorelDRAW and Canva, with foundational web development skills.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="photo-wrap">
+          <img src="images/fahad-profile.png" alt="Professional portrait of Fahad Ahmad">
+        </div>
+        <p>Building ideas into digital experiences with hardwork.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2 class="section-title">A little about myself</h2>
+      <div class="about-grid">
+        <p>I am Fahad Ahmad, a passionate learner interested in web development, graphic design and accounting technology. I enjoy turning ideas into attractive and practical digital projects.</p>
+        <p>My goal is to grow as a professional developer, build useful products and keep learning modern technologies.</p>
+      </div>
+    </section>
+    
+<!--  Skills saction that i have to update with ancer tag -->
+  
+    <section id="skills" class="section">
+      <p class="eyebrow">MY SKILLS</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+       <a href="HTML Note/index.html"><div class="skill"><h3>HTML</h3><p>Semantic, structured web pages, <Br> We teach alot of student's Html and as you see about my work or my experience or my syllabus that i teach to them.</Br></p></div></a>
+       
+        <div class="skill"><h3>CSS</h3><p>Responsive layouts and modern styling.</p></div>
+        
+        <a href="Java Notes/Java for bigginers.hmtl.html"><div class="skill"><h3>JavaScript</h3><p>Interactive and dynamic experiences.</p></div></a>
+        
+        <div class="skill"><h3>Office Automation</h3><p>Office work, paperwork and documentation.</p></div>
+        <div class="skill"><h3>Tally & Accounting</h3><p>Practical accounting and business entries.</p></div>
+        <div class="skill"><h3>Graphic Design</h3><p>Creative visuals and clean compositions.</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">MY WORK</p>
+      <h2 class="section-title">Things I've Done</h2>
+      <div class="projects-grid">
+        <article class="project"><div class="project-number">01</div><h3>My Portfolio</h3><p>A professional portfolio made for showcasing my work.</p><span>HTML · CSS · JavaScript</span></article>
+        <article class="project"><div class="project-number">02</div><h3>Accounting Work</h3><p>Practical accounting and company work with business records.</p><span>Specialty in Tally</span></article>
+        <article class="project"><div class="project-number">03</div><h3>Office Automation</h3><p>Office work, paperwork and digital documentation.</p><span>MS Word · Advanced Excel · PowerPoint · Google Sheets</span></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2 class="section-title">Let's work together</h2>
+      <p>Have a work or opportunity in mind? I'd love to hear from you.</p>
+      <a class="btn primary" href="mailto:fahadahmadnbd24@gmail.com">Send Me an Email</a>
+    </section>
+  </main>
+  
+  <footer>© <span id="year"></span> Fahad Ahmad. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
